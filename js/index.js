@@ -1,36 +1,40 @@
 // // event have been loaded
-// window.addEventListener('load', function () {
+window.addEventListener('load', function () {
   
-// });
+});
 
 // // Get the button:
-// let mybutton = document.getElementById("btn_back_to_top");
+let mybutton = document.getElementById("btn_back_to_top");
 
 // // When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction()};
 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) { // this true condition with two rule
-//     mybutton.style.display = "block";
-//     mybutton.style.backgroundColor = "gray"; 
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) { // this true condition with two rule
+    mybutton.style.display = "block";
+    mybutton.style.backgroundColor = "gray"; 
     
-//     mybutton.children[1].style.display = "none";
-//     mybutton.children[0].style.display = "block"; //menampilkan element 
-//     mybutton.children[0].style.color = 'white'; // change coler black to white 
-//     console.log(mybutton.children);
-//   } else { 
-//     mybutton.style.display = "block";
-//     mybutton.style.backgroundColor = "brown";  //kembali ke kondisi semula
-//     mybutton.children[1].style.display = "block";
-//     mybutton.children[0].style.display = "none";
-//   }
-// }
+    mybutton.children[1].style.display = "none";
+    mybutton.children[0].style.display = "block"; //menampilkan element 
+    mybutton.children[0].style.color = 'white'; // change coler black to white 
+    console.log(mybutton.children);
+  } else { 
+    mybutton.style.display = "block";
+    mybutton.style.backgroundColor = "brown";  //kembali ke kondisi semula
+    mybutton.children[1].style.display = "block";
+    mybutton.children[0].style.display = "none";
+  }
+}
  
-// // When the user clicks on the button, scroll to the top of the document
-// function topFunction() { 
-//   window.scrollTo({top: 0, behavior: 'smooth'});  // back to top position with smooth action
-// }
- 
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() { 
+  window.scrollTo({top: 0, behavior: 'smooth'});  // back to top position with smooth action
+}
+
+login = document.getElementById("login");
+login.onclick = function () {
+  document.location.href = 'login.html';
+}
 // // initial query selector div class menu
 // const change_active = document.querySelector('#container');  
 // // adding event when initial have created
