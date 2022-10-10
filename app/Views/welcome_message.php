@@ -50,24 +50,34 @@
         <h2>Welcome to Journal</h2>
     </section>
     <section class="about" id="TERKINI">
-        <div class="container">
-            <h3>ABOUT</h3>
+        <div class="container about-page">
+            <div class="isi" style="background: transparent;"> 
+                <h3 style="margin: 0 25px 0 0;">Tentang Jurnal ini</h3>
+                <h3 style="margin: 25px 0 20px 0;">Jurnal Pengandian Masyarakat Indonesia</h3>
+                <p><b>Jurnal Pengabdian Masyarakat Indonesia (JPMI)</b> adalah jurnal nasional yang berisi hasil-hasil kegiatan pengabdian 
+                    dan pemberdayaan masyarakat berupa penerapan berbagai bidang ilmu diantaranya pendidikan, teknik, pertanian, sosial humaniora, 
+                    komputer dan kesehatan. JPMI terbit dua bulan sekali, yaitu Februari, April, Juni, Agustus, Oktober, dan Desember.</p>
+                <p style="margin-top: 2%; margin-bottom: 2%;">JPMI terdaftar di LIPI dengan P-ISSN : <a>2775-3034</a>  dan E-ISSN : <a>2775-3026</a></p>
+            </div>
+            <div class="info" style="background: transparent;">
+                <div class="issn">
+                    <h6>ISSN</h6>
+                    <p>P-ISSN&nbsp;&nbsp;:&nbsp;&nbsp;<a href="http://issn.pdii.lipi.go.id/issn.cgi?daftar&1612845747&1&&">2775-3034</a><p>
+                    <p>e-ISSN&nbsp;&nbsp;:&nbsp;&nbsp;<a href="http://issn.pdii.lipi.go.id/issn.cgi?daftar&1612845747&1&&">2775-3026</a></p>
+                </div>
+                <hr>
+                <div class="submit-here">
+                    <img src="<?=site_url('/')?>img/submit.png" />
+                </div>
+            </div>
         </div>
-    </section>
-    <section class="service" id="ARSIP">
-        <h3>SERVICE</h3>
-    </section>
-    <section class="contact" id="PENGUMUMAN">
-        <h3>CONTACT</h3>
-    </section>
-    <section class="contact" id="TENTANG_KAMI">
-        <h3>CONTACT</h3>
-    </section>
+    </section> 
     <section class="footer" id="footer"> 
-        <div class="container">
-            <div class="col-md-10">
-                <p>P-ISSN : 2775-3034  dan E-ISSN : 2775-3026</p>
-                <p>JPMI Terindeks Oleh :</p>
+        <div class="container" style="">
+            <div class="col-md-10 tester" style="">
+                <p>P-ISSN : <a>2775-3034</a>  dan E-ISSN : <a>2775-3026</a></p>
+                <p>JPMI Terindeks Oleh :</p> 
+                <div></div>
             </div>
             <div class="col-md-2"></div>
         </div>

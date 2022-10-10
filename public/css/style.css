@@ -91,37 +91,21 @@ header ul li a:hover {
 }
 section {
     padding: 50px 0;
-}
-section h3{
-    text-align: center;
 } 
-.contact::after{ 
-  transition: ease-in 2s;
+.about-page{
+    display: flex; 
 }
-.footer{
-    background: #35FFE1; 
-    padding: 0;
-} 
-.btns{
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    background: brown;  
-    width: 1%;
-    padding: 10px;
-    margin: 0 auto;
-    display: none;
-    border-radius: 20px;
-}
-.sub-treeview{
-    display: none;
-}
-.sub-treeview-open{
-    display: block;
-    position: absolute;
-    top: 10px;
-    background-color: green;
-}
+.isi{ width: 80%; }
+.info{ width: 20%; }
+.isi p{ text-align: justify; padding-right: 2%; }
+.issn { padding: 5%; background: rgba(0, 0, 0, 0.3); color: white; border: 1px black solid; }
+.issn h6{ width: 100%; text-align: center; background: rgba(0, 0, 0, 0.1); font-size: 18px; padding: 2px; margin-bottom: 2%;}
+.issn p{ width: 100%; text-align: center; font-size: 18px; color: black; font-size: 13px;}
+.contact::after{ transition: ease-in 2s; }
+.footer{ background: #35FFE1; padding: 10px; } 
+.btns{ position: fixed; right: 15px; bottom: 15px; background: brown; width: 1%; padding: 10px; margin: 0 auto; display: none; border-radius: 20px; }
+.sub-treeview{ display: none; }
+.sub-treeview-open{ display: block; position: absolute; top: 10px; background-color: green; }
 .dropbtn {
     background-color: white;
     /* background-color: #35FFE5; */
@@ -134,6 +118,7 @@ section h3{
 .dropdown { 
     position: relative;
     display: inline-block;
+    padding: 10px;
 }
 
 .dropdown-content {
@@ -166,3 +151,6 @@ section h3{
     color: white;
     background-color: #35FFE5;
 }
+hr{ background: black; background-color: black; height: 1px; margin-top: 5%; margin-bottom: 5%;}
+.submit-here{ width: 100%; background-color: rgba(0, 0, 0, 0.2); padding: 10px; }
+.submit-here img{ background-size: cover; background-repeat: no-repeat; width: 100%; }
