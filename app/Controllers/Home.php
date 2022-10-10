@@ -4,8 +4,7 @@ namespace App\Controllers;
 
 use App\Models\M_Users;
 
-class Home extends BaseController
-{
+class Home extends BaseController{
     public function index()
     {
         return view('welcome_message');
